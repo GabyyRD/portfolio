@@ -20,10 +20,77 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Gabrielly Dionisio | Dados • BI • Engenharia de Dados",
+  metadataBase: new URL("https://SEU-DOMINIO.vercel.app"),
+  title: {
+    default: "Gabrielly Dionisio | Dados • BI • Engenharia de Dados",
+    template: "%s | Gabrielly Dionisio",
+  },
   description:
-    "Estudante de Engenharia da Computação com foco em Dados, BI e Engenharia de Dados.",
+    "Estudante de Engenharia da Computação com foco em Dados, BI e Engenharia de Dados. Portfólio com projetos de pipeline de dados, Power BI e automação.",
+  keywords: [
+    "Gabrielly Dionisio",
+    "Engenharia de Dados",
+    "Business Intelligence",
+    "Análise de Dados",
+    "Power BI",
+    "PySpark",
+    "Databricks",
+    "UFES",
+  ],
+  authors: [{ name: "Gabrielly Dionisio" }],
+    openGraph: {
+    title: "Gabrielly Dionisio | Dados • BI • Engenharia de Dados",
+    description:
+      "Estudante de Engenharia da Computação com foco em Dados, BI e Engenharia de Dados.",
+    url: "https://SEU-DOMINIO.vercel.app",
+    siteName: "Gabrielly Dionisio",
+    locale: "pt_BR",
+    type: "website",
+    // [ADICIONAR INFORMAÇÃO] crie public/og-image.png (1200x630px) e descomente abaixo
+    // images: [
+    //   {
+    //     url: "/og-image.png",
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "Gabrielly Dionisio — Dados, BI e Engenharia de Dados",
+    //   },
+    // ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Gabrielly Dionisio | Dados • BI • Engenharia de Dados",
+    description:
+      "Estudante de Engenharia da Computação com foco em Dados, BI e Engenharia de Dados.",
+    // [ADICIONAR INFORMAÇÃO] mesma imagem do openGraph acima
+    // images: ["/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
+
+function PersonJsonLd() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Gabrielly Dionisio",
+    jobTitle: "Estudante de Engenharia da Computação",
+    affiliation: "Universidade Federal do Espírito Santo (UFES)",
+    url: "https://SEU-DOMINIO.vercel.app",
+    sameAs: [
+      "https://github.com/GabyyRD",
+      "https://www.linkedin.com/in/gabrielly-dionisio/",
+    ],
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
+  );
+}
 
 export default function RootLayout({
   children,
@@ -35,6 +102,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} antialiased`}
       >
+        <PersonJsonLd />
         {children}
       </body>
     </html>
