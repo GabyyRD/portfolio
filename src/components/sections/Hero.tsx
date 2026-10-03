@@ -14,7 +14,10 @@ export function Hero() {
           {site.role} — {site.focus}
         </p>
 
-        <h1 className="font-serif text-5xl leading-[1.05] md:text-7xl">
+        <h1
+          className="font-serif leading-[1.05]"
+          style={{ fontSize: "clamp(2.5rem, 8vw, 5.5rem)" }}
+        >
           {site.name}
         </h1>
 

@@ -76,6 +76,7 @@ export function ProjectItem({
               fill
               sizes="(min-width: 768px) 40vw, 90vw"
               className="object-cover"
+              priority={index === 0}
             />
           </div>
         ) : (
