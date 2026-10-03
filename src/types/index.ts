@@ -8,3 +8,10 @@ export type Project = {
   github?: string;
   demo?: string;
 };
+
+export type Experience = {
+  role: string;
+  place: string;
+  period: string;
+  description: string;
+};
