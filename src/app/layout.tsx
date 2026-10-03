@@ -24,7 +24,7 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://SEU-DOMINIO.vercel.app"),
+  metadataBase: new URL("https://gabriellydev.vercel.app"),
   title: {
     default: "Gabrielly Dionisio | Dados • BI • Engenharia de Dados",
     template: "%s | Gabrielly Dionisio",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     title: "Gabrielly Dionisio | Dados • BI • Engenharia de Dados",
     description:
       "Estudante de Engenharia da Computação com foco em Dados, BI e Engenharia de Dados.",
-    url: "https://SEU-DOMINIO.vercel.app",
+    url: "https://gabriellydev.vercel.app",
     siteName: "Gabrielly Dionisio",
     locale: "pt_BR",
     type: "website",
@@ -81,7 +81,7 @@ function PersonJsonLd() {
     name: "Gabrielly Dionisio",
     jobTitle: "Estudante de Engenharia da Computação",
     affiliation: "Universidade Federal do Espírito Santo (UFES)",
-    url: "https://SEU-DOMINIO.vercel.app",
+    url: "https://gabriellydev.vercel.app",
     sameAs: [
       "https://github.com/GabyyRD",
       "https://www.linkedin.com/in/gabrielly-dionisio/",
