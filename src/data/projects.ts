@@ -9,7 +9,7 @@ export const projects: Project[] = [
     tags: ["Python", "PySpark", "Databricks", "Power BI", "SQL"],
     status: "concluido",
     github: "https://github.com/GabyyRD/engenharia-dados-localidade-alunos-ufes",
-    // image: "/projects/pipeline-ufes.png",
+    image: "/projects/dashboard-powerbi.png",
   },
   {
     slug: "dashboard-vertice-retail",
@@ -19,7 +19,7 @@ export const projects: Project[] = [
     tags: ["Streamlit", "Google Colab", "Excel", "Python"],
     status: "concluido",
     github: "https://github.com/GabyyRD/vertice-dashboard",
-    // image: "/projects/vertice-retail.png",
+    image: "/projects/dashboard_vertice.png",
   },
   /*{
     slug: "monitor-precos-livros",
