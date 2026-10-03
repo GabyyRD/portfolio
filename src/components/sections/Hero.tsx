@@ -41,9 +41,9 @@ export function Hero() {
           </Button>
         </div>
 
-        <div className="mt-16">
+        {/*<div className="mt-16">
           <DataPulse />
-        </div>
+        </div>*/}
       </Container>
     </section>
   );

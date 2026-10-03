@@ -15,17 +15,17 @@ export default function Home() {
       <main>
         <Hero />
         <Reveal>
-          <Projects />
+          <About />
         </Reveal>
         <Reveal>
-          <About />
+          <Projects />
         </Reveal>
         <Reveal>
           <Resume />
         </Reveal>
-        <Reveal>
+        {/*<Reveal>
           <Beyond />
-        </Reveal>
+        </Reveal>*/}
         <Reveal>
           <Contact />
         </Reveal>

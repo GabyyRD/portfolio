@@ -16,14 +16,14 @@ export const experience: Experience[] = [
       "Estruturação de bases históricas de evasão e trancamento, e indicadores de reprovação acadêmica para apoiar decisões institucionais.",
   },
   {
-    role: "Presidente",
+    role: "Presidente, Desenvolvedora",
     place: "Adapti — Empresa Júnior de Computação, UFES",
-    period: "Jan 2024 – Dez 2024",
+    period: "Nov 2022 – Dez 2024",
     description:
-      "Governança geral, parcerias e planejamento estratégico; reativação de diretorias após período de vacância e metas de faturamento alcançadas.",
+      "Governança geral, parcerias, planejamento estratégico e metas de faturamento alcançadas. Criação de sites e sistemas web com Laravel, HTML e CSS.",
   },
   {
-    role: "Product Management Intern",
+    role: "Estagiária de Produto",
     place: "Voltz",
     period: "Out 2023 – Nov 2024",
     description:

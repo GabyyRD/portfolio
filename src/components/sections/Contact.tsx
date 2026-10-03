@@ -5,10 +5,9 @@ import { GithubIcon, LinkedinIcon } from "@/components/ui/BrandIcons";
 
 export function Contact() {
   return (
-    <Section id="contato" eyebrow="05 — Contato" title="Vamos conversar?">
+    <Section id="contato" eyebrow="" title="Contato :)">
       <p className="max-w-xl text-lg text-ink-soft">
-        Estou aberta a oportunidades de estágio em Dados, BI e Engenharia de
-        Dados. Se quiser trocar uma ideia, me encontra em um desses lugares:
+        Se quiser trocar uma ideia, me encontra em um desses lugares:
       </p>
 
       <div className="mt-8 flex flex-wrap gap-6">

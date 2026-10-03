@@ -6,7 +6,7 @@ export const projects: Project[] = [
     title: "Pipeline de Dados de Localidade de Alunos — UFES",
     summary:
       "Pipeline de dados utilizando arquitetura Bronze/Silver/Gold para ingestão, tratamento, validação de qualidade e análise de dados de alunos da UFES.",
-    tags: ["Python", "PySpark", "Databricks", "Delta Lake", "SQL"],
+    tags: ["Python", "PySpark", "Databricks", "Power BI", "SQL"],
     status: "concluido",
     github: "https://github.com/GabyyRD/engenharia-dados-localidade-alunos-ufes",
     // image: "/projects/pipeline-ufes.png",
@@ -15,8 +15,8 @@ export const projects: Project[] = [
     slug: "dashboard-vertice-retail",
     title: "Dashboard Vértice Retail — Case Elogroup",
     summary:
-      "Case do bootcamp da Elogroup: identificação de um problema comercial, tratamento e modelagem dos dados, construção de indicadores e dashboard em Power BI com geração de insights.",
-    tags: ["Power BI", "[ADICIONAR TECNOLOGIAS]"],
+      "Identificação de um problema comercial, tratamento e modelagem dos dados, construção de indicadores e dashboard em Power BI com geração de insights.",
+    tags: ["Streamlit", "Google Colab", "Excel", "Python"],
     status: "concluido",
     github: "https://github.com/GabyyRD/vertice-dashboard",
     // image: "/projects/vertice-retail.png",

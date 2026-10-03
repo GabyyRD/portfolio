@@ -6,7 +6,7 @@ import { site } from "@/data/site";
 
 export function Resume() {
   return (
-    <Section id="curriculo" eyebrow="03 — Currículo" title="Trajetória resumida">
+    <Section id="curriculo" eyebrow="" title="Currículo">
       <div className="grid gap-12 md:grid-cols-[1.4fr_1fr]">
         <div>
           <h3 className="mb-6 font-mono text-sm uppercase tracking-wide text-ink-soft">

@@ -5,7 +5,7 @@ import { site } from "@/data/site";
 
 export function Projects() {
   return (
-    <Section id="projetos" eyebrow="01 — Projetos" title="O que eu construí">
+    <Section id="projetos" eyebrow="Projetos" title="">
       <div>
         {projects.map((project, index) => (
           <ProjectItem key={project.slug} project={project} index={index} />
